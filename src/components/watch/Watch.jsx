@@ -21,7 +21,7 @@ const Watch = () => {
     }, []);
 
     return (
-        <div>
+        <div className="text-xl">
             <p className="title">{time}</p>
         </div>
     );
