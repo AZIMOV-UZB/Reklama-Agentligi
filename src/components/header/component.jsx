@@ -6,10 +6,10 @@ import Boob from "@/components/boob/Boob"
 
 const component = () => {
   return (
-    <div className=' bg-blue-700 header mb-5 py-3'>  
+    <div className=' bg-blue-700 header mb-5 py-1'>  
 
     <div  className='header container flex justify-between text-white items-center text-xl font-bold'>
-<a href="">
+<a href="/">
 <Image
   className="w-[100px] h-[120px] rounded-[50px]"
   src={logo} 

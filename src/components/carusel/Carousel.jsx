@@ -16,7 +16,7 @@ const contentStyle = {
 };
 
 const MyCarousel = () => (
-  <div className='container '>
+  <div className='container'>
 
   <Carousel autoplay >
     <div>
