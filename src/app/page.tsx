@@ -3,6 +3,7 @@ import Carousel from '@/components/carusel/Carousel'
 import Footer from '@/components/footer/Footer'
 import Map from '@/components/map/Map'
 import  Shop from '@/components/shop/shop'
+import Jobs from "@/components/jobs/Jobs"
 export default function Home() {
   return (
 <>
@@ -17,8 +18,7 @@ export default function Home() {
 </div>
 <Shop/>
 <Map/>
-<p className=" container text-center text-5xl font-bold  text-white">BIZNING
-XIZMATLAR</p>
+<Jobs/>
 
 <Footer/>
 
