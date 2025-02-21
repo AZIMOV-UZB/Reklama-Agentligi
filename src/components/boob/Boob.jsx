@@ -23,7 +23,7 @@ const Boob = () => {
         <p><a target="_blank" href="tel:+998977776668">Telefon raqamimiz : +998</a></p>
         <p><a target="_blank" href="tel:+998 976042504">2-Telefon raqamimiz : +998</a></p>
         <p><a target="_blank" href="https://t.me/VOKZALREKLAMA" >Telegram akauntimiz</a></p>
-        <p><a target="_blank" href="https://www.instagram.com/print.fath">Instagram profilimiz</a></p>
+        <p><a target="_blank" href="https://www.instagram.com/print.fath?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram profilimiz</a></p>
         <p><a target="_blank" href="https://maps.app.goo.gl/RjrWBUSDirUuyVhC6">Bizning manzilizmiz</a></p>
         <div className="flex gap-2 items-center">
   Bizning carta raqamimiz

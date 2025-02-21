@@ -3,6 +3,8 @@ import React from "react";
 import { FaPhone } from "react-icons/fa";
 import { RiTelegram2Fill } from "react-icons/ri";
 import { motion } from "framer-motion";
+import Music from '@/components/log/Log'
+
 
 const pulsateVariant = {
   animate: {
@@ -47,6 +49,16 @@ const Shop = () => {
             <RiTelegram2Fill />
           </motion.div>
         </a>
+        <motion.div
+            className="w-12 h-12 flex items-center justify-center rounded-full bg-[#0088CC] text-white text-2xl shadow-lg hover:bg-[#0077B5] transition duration-300"
+            variants={pulsateVariant}
+            initial="animate"
+            animate="animate"
+            whileHover="hover"
+          >
+            <Music/>
+
+          </motion.div>
       </div>
     </div>
   );

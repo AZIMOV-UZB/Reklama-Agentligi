@@ -11,7 +11,7 @@ export default function Home() {
 <Carousel/>
 <div className=" container ">
 <p className="  text-5xl font-bold my-6 text-white">FATH PRINT</p>
-<p className=" text-5xl font-bold my-6 text-white">TASHQI REKLAMA AGENTLGI
+<p className=" title text-5xl font-bold my-6 text-white ">TASHQI REKLAMA AGENTLGI
 </p>
 <p className=" text-xl font-bold my-6 text-white">SHAXSIY BIZNESINGIZNI REKLAMA ORQALI RIVOJLANTIRING
 </p>
