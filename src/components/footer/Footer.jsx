@@ -1,5 +1,8 @@
 "use client";
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaTelegram , FaInstagram } from "react-icons/fa";
+import { PiPhoneFill } from "react-icons/pi";
+import { FaMapMarkerAlt } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -7,13 +10,13 @@ const Footer = () => {
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h2 className="text-2xl font-bold text-white">UL Library</h2>
-            <p className="mt-2 text-sm">
-              Kitob do‘koni – eng yaxshi kitoblarni toping va o‘qing.
-            </p>
+            <h2 className="text-4xl font-bold text-white">FATH PRINT</h2>
+            <p className="my-2 text-xl">
+            TASHQI REKLAMA AGENTLGI </p>
+            <p>SHAXSIY BIZNESINGIZNI REKLAMA ORQALI RIVOJLANTIRING</p>
+
           </div>
 
-          {/* 2-qism: Foydali havolalar */}
           <div>
             <h3 className="text-lg font-semibold text-white">Foydali havolalar</h3>
             <ul className="mt-1 space-y-2">
@@ -28,21 +31,27 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* 3-qism: Ijtimoiy tarmoqlar */}
           <div>
             <h3 className="text-lg font-semibold text-white">Biz bilan bog‘laning</h3>
             <div className="flex mt-3 space-x-4">
-              <a href="#" className="hover:text-blue-500 text-xl"><FaFacebook /></a>
-              <a href="#" className="hover:text-pink-500 text-xl"><FaInstagram /></a>
-              <a href="#" className="hover:text-blue-400 text-xl"><FaTwitter /></a>
-              <a href="#" className="hover:text-red-500 text-xl"><FaYoutube /></a>
+              <a target="_blank" href="https://t.me/VOKZALREKLAMA" className="hover:text-black text-xl"><FaTelegram className="text-4xl font-bold" />
+              </a>
+              <a target="_blank" href="https://www.instagram.com/print.fath?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="hover:text-pink-500 text-xl"><FaInstagram  className="text-4xl font-bold"/></a>
+              <a target="_blank" href="tel:+998977776668" className="hover:text-green-500 text-xl"> 
+                <PiPhoneFill  className="text-4xl font-bold"/></a>
+            </div>
+            <div className="my-2">
+           
+            <h3 className="text-lg font-semibold text-whitZ">Biz manzil</h3>
+            <a target="_blank" href="https://maps.app.goo.gl/RjrWBUSDirUuyVhC6" className="hover:text-red-600 text-xl"> 
+            <FaMapMarkerAlt  className="text-4xl font-bold "/></a>              
             </div>
           </div>
         </div>
 
-        {/* Pastki qism: Copyright */}
-        <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm">
-          <p>© 2025 UL Library. Barcha huquqlar himoyalangan.</p>
+        <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm flex flex-wrap justify-between gap-6">
+          <p>SAYT MUOLIF AZIMOV ABDUVORIS  <a target="_blank" href="tel:+998997872900">99-787-29-00</a></p>
+          <p>© 21.02.2025 FATH PRINT. Barcha huquqlar himoyalangan.</p>
         </div>
       </div>
     </footer>

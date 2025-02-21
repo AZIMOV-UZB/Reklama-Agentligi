@@ -5,13 +5,16 @@ import logo from "@/components/assets/logo.svg";
 import Boob from "@/components/boob/Boob"
 
 const component = () => {
+  
+  <meta property="og:image" content="https://telegra.ph/file/2c5a373c8b64f2d6558d8.png" />
   return (
-    <div className=' bg-blue-700 header mb-5 py-1'>  
+    <div className=' bg-blue-700 header mb-5'>  
 
     <div  className='header container flex justify-between text-white items-center text-xl font-bold'>
+
 <a href="/">
 <Image
-  className="w-[100px] h-[120px] rounded-[50px]"
+  className="w-[120px] h-[150px] rounded-[50px]"
   src={logo} 
   alt="foto"
 />   

@@ -20,7 +20,7 @@ const CopyButton = () => {
   return (
     <motion.button
       onClick={handleCopy}
-      className="flex items-center  p-2 rounded-[5px] bg-blue-500 text-white shadow-lg"
+      className="flex items-center  p-2 rounded-[5px] bg-blue-500 text-white shadow-lg justify-self-end w-full"
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
     >
