@@ -25,7 +25,7 @@ const pulsateVariant = {
 const Shop = () => {
   return (
     <div className="relative">
-      <div className="fixed bottom-5 right-8 flex flex-col items-end space-y-4">
+      <div className="fixed bottom-5 right-1 flex flex-col items-end space-y-4 zoom-in-100">
         <a href="tel:+998977776668">
           <motion.div
             className="w-12 h-12 flex items-center justify-center rounded-full bg-green-600 text-white text-2xl shadow-lg hover:bg-green-700 transition duration-300"
@@ -34,7 +34,7 @@ const Shop = () => {
             animate="animate"
             whileHover="hover"
           >
-            <FaPhone />
+            <FaPhone  className="z-100"/>
           </motion.div>
         </a>
 
@@ -46,7 +46,7 @@ const Shop = () => {
             animate="animate"
             whileHover="hover"
           >
-            <RiTelegram2Fill />
+            <RiTelegram2Fill className="z-100" />
           </motion.div>
         </a>
         <motion.div
@@ -56,7 +56,7 @@ const Shop = () => {
             animate="animate"
             whileHover="hover"
           >
-            <Music/>
+            <Music className="z-100"/>
 
           </motion.div>
       </div>

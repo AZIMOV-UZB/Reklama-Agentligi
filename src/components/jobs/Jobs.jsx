@@ -49,7 +49,7 @@ const Jobs = () => {
 
         <div className='hover:scale-105  bg-slate-100'>
     <Image
-    className='w-full h-[100px]'
+    className='foto w-full'
     src="https://avatars.mds.yandex.net/i?id=20fdd11f971bc095a2e92aefa0e0c9dc_l-5480389-images-thumbs&ref=rim&n=13&w=1200&h=1200"
   />
   <div className='p-2'>
@@ -58,109 +58,103 @@ const Jobs = () => {
       <Button type="primary">Bolimga o'tish</Button>            
           </a>
   </div>
-
         </div>
 
         <div className='hover:scale-105  bg-slate-100'>
     <Image
-    className='w-full h-[100px]'
-    src="https://avatars.mds.yandex.net/i?id=20fdd11f971bc095a2e92aefa0e0c9dc_l-5480389-images-thumbs&ref=rim&n=13&w=1200&h=1200"
+    className='foto w-full'
+    src="https://avatars.mds.yandex.net/i?id=5ba4dadc568a96fa38e042982dab94ab79a08799-10871820-images-thumbs&n=13"
   />
   <div className='p-2'>
-  <p className=' text-2xl font-bold'>BANNER </p>
+  <p className=' text-2xl font-bold'>SHTENDIR </p>
           <a href="">
       <Button type="primary">Bolimga o'tish</Button>            
           </a>
   </div>
-
         </div>
 
         <div className='hover:scale-105  bg-slate-100'>
     <Image
-    className='w-full h-[100px]'
-    src="https://avatars.mds.yandex.net/i?id=20fdd11f971bc095a2e92aefa0e0c9dc_l-5480389-images-thumbs&ref=rim&n=13&w=1200&h=1200"
+    className='foto w-full'
+    src="https://avatars.mds.yandex.net/i?id=cee109a6a0846976ffa2b08fea3585f3_l-5910758-images-thumbs&ref=rim&n=13&w=1080&h=1080"
   />
   <div className='p-2'>
-  <p className=' text-2xl font-bold'>BANNER </p>
+  <p className=' text-2xl font-bold'>ARAKAL</p>
           <a href="">
       <Button type="primary">Bolimga o'tish</Button>            
           </a>
   </div>
-
-        </div>
-
-        <div className='hover:scale-105  bg-slate-100'>
-    <Image
-    className='w-full h-[100px]'
-    src="https://avatars.mds.yandex.net/i?id=20fdd11f971bc095a2e92aefa0e0c9dc_l-5480389-images-thumbs&ref=rim&n=13&w=1200&h=1200"
-  />
-  <div className='p-2'>
-  <p className=' text-2xl font-bold'>BANNER </p>
-          <a href="">
-      <Button type="primary">Bolimga o'tish</Button>            
-          </a>
-  </div>
-
         </div>
 
 
         <div className='hover:scale-105  bg-slate-100'>
     <Image
-    className='w-full h-[100px]'
-    src="https://avatars.mds.yandex.net/i?id=20fdd11f971bc095a2e92aefa0e0c9dc_l-5480389-images-thumbs&ref=rim&n=13&w=1200&h=1200"
+    className='foto w-full'
+    src="https://i.ebayimg.com/images/g/shIAAOSwjARckZw8/s-l1600.jpg"
   />
   <div className='p-2'>
-  <p className=' text-2xl font-bold'>BANNER </p>
+  <p className=' text-2xl font-bold'>VIZITKA</p>
           <a href="">
       <Button type="primary">Bolimga o'tish</Button>            
           </a>
   </div>
-
-        </div>
-
-        <div className='hover:scale-105  bg-slate-100'>
-    <Image
-    className='w-full h-[100px]'
-    src="https://avatars.mds.yandex.net/i?id=20fdd11f971bc095a2e92aefa0e0c9dc_l-5480389-images-thumbs&ref=rim&n=13&w=1200&h=1200"
-  />
-  <div className='p-2'>
-  <p className=' text-2xl font-bold'>BANNER </p>
-          <a href="">
-      <Button type="primary">Bolimga o'tish</Button>            
-          </a>
-  </div>
-
-        </div>
-
-        <div className='hover:scale-105  bg-slate-100'>
-    <Image
-    className='w-full h-[100px]'
-    src="https://avatars.mds.yandex.net/i?id=20fdd11f971bc095a2e92aefa0e0c9dc_l-5480389-images-thumbs&ref=rim&n=13&w=1200&h=1200"
-  />
-  <div className='p-2'>
-  <p className=' text-2xl font-bold'>BANNER </p>
-          <a href="">
-      <Button type="primary">Bolimga o'tish</Button>            
-          </a>
-  </div>
-
         </div>
 
 
         <div className='hover:scale-105  bg-slate-100'>
     <Image
-    className='w-full h-[100px]'
-    src="https://avatars.mds.yandex.net/i?id=20fdd11f971bc095a2e92aefa0e0c9dc_l-5480389-images-thumbs&ref=rim&n=13&w=1200&h=1200"
+    className='foto w-full'
+    src="https://avatars.mds.yandex.net/get-altay/1868686/2a00000188963400ad1842b97f6ba7c94852/XXL_height"
   />
   <div className='p-2'>
-  <p className=' text-2xl font-bold'>BANNER </p>
+  <p className=' text-2xl font-bold'>FLAER</p>
           <a href="">
       <Button type="primary">Bolimga o'tish</Button>            
           </a>
   </div>
-
         </div>
 
+
+        <div className='hover:scale-105  bg-slate-100'>
+    <Image
+    className='foto w-full'
+    src="https://avatars.mds.yandex.net/i?id=0ad9c0bd1e81992e545e41e90bfdc5ad_l-5877516-images-thumbs&ref=rim&n=13&w=850&h=574"
+  />
+  <div className='p-2'>
+  <p className=' text-2xl font-bold'>SETKA</p>
+          <a href="">
+      <Button type="primary">Bolimga o'tish</Button>            
+          </a>
+  </div>
+        </div>
+
+        <div className='hover:scale-105  bg-slate-100'>
+    <Image
+    className='foto w-full'
+    src="https://static.tildacdn.com/tild6265-6635-4430-a338-643138633461/image.png"
+  />
+  <div className='p-2'>
+  <p className=' text-2xl font-bold'>MENU</p>
+          <a href="">
+      <Button type="primary">Bolimga o'tish</Button>            
+          </a>
+  </div>
+        </div>
+
+        <div className='hover:scale-105  bg-slate-100'>
+    <Image
+    className='foto w-full'
+    src="https://i.pinimg.com/originals/69/a6/ee/69a6ee92ba1bf9d51ab6c649768b9705.jpg"
+  />
+  <div className='p-2'>
+  <p className=' text-2xl font-bold'>BILBOARD</p>
+          <a href="">
+      <Button type="primary">Bolimga o'tish</Button>            
+          </a>
+  </div>
+        </div>
+
+     
         
       </div>
     </div>
