@@ -25,9 +25,8 @@ const CopyButton = () => {
       whileTap={{ scale: 0.95 }}
     >
       <FiCopy className="mr-2" />
-      {copied ? "Yuklab olindi!" : "Yuklash! "}
+      {copied ? "Yuklab olindi!" : "Vaqtinchalik Yuklash! "}
     </motion.button>
   );
 };
-
 export default CopyButton;

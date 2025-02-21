@@ -11,9 +11,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h2 className="text-4xl font-bold text-white">FATH PRINT</h2>
-            <p className="my-2 text-xl">
+            <p className="my-2 text-xl text-white">
             TASHQI REKLAMA AGENTLGI </p>
-            <p>SHAXSIY BIZNESINGIZNI REKLAMA ORQALI RIVOJLANTIRING</p>
+            <p className="text-white">SHAXSIY BIZNESINGIZNI REKLAMA ORQALI RIVOJLANTIRING</p>
 
           </div>
 
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm flex flex-wrap justify-between gap-6">
-          <p>SAYT MUOLIF AZIMOV ABDUVORIS  <a target="_blank" href="tel:+998997872900">99-787-29-00</a></p>
+          <p className="text-white">SAYT MUOLIF AZIMOV ABDUVORIS  <a target="_blank" href="tel:+998997872900">99-787-29-00</a></p>
           <p>© 21.02.2025 FATH PRINT. Barcha huquqlar himoyalangan.</p>
         </div>
       </div>
