@@ -4,6 +4,7 @@ import Footer from "@/components/footer/Footer";
 import Map from "@/components/map/Map";
 import Shop from "@/components/shop/Shop";
 import Jobs from "@/components/jobs/Jobs";
+import Big from "@/components/big/Big";
 export default function Home() {
   return (
     <>
@@ -21,6 +22,7 @@ export default function Home() {
       <Shop />
       <Map />
       <Jobs />
+      <Big/>
       <Footer />
     </>
   );

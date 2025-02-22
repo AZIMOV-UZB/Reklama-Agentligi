@@ -41,10 +41,9 @@ const Footer = () => {
                 <PiPhoneFill  className="text-4xl font-bold"/></a>
             </div>
             <div className="my-2">
-           
             <h3 className="text-lg font-semibold text-whitZ">Biz manzil</h3>
             <a target="_blank" href="https://maps.app.goo.gl/RjrWBUSDirUuyVhC6" className="hover:text-red-600 text-xl"> 
-            <FaMapMarkerAlt  className="text-4xl font-bold "/></a>              
+            <FaMapMarkerAlt  className="text-4xl font-bold ml-14 "/></a>              
             </div>
           </div>
         </div>
