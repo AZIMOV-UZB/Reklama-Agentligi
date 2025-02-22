@@ -1,7 +1,7 @@
 import React from 'react'
-import Image from 'next/image';
+// import Image from 'next/image';
 import Watch from "@/components/watch/Watch";
-import logo from "@/components/assets/logo.svg";
+// import logo from "@/components/assets/logo.svg";
 import Boob from "@/components/boob/Boob"
 
 const component = () => {
